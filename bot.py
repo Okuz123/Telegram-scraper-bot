@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import telebot
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8130659757:AAGleAUla0cGqiQJuTWMwWdGtX0Db1ZSJ5w")
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
